@@ -184,8 +184,8 @@ public class Homework {
 
     ////// Проверка условия ничьи
     public static boolean draw() {
-        for (int i = 0; i < mainArr.length; i++) {
-            if (mainArr[i] == ' ') {  // пока в массиве присутствуют пробелы, ходы не исчерпаны
+        for (char c : mainArr) {
+            if (c == ' ') {  // пока в массиве присутствуют пробелы, ходы не исчерпаны
                 return false;
             }
         }
