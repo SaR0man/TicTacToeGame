@@ -49,7 +49,7 @@ public class Homework {
             if (temp < 1 || temp > 2)
                 System.out.print("Будьте внимательны! Введите 1 или 2: ");
             else {
-                gameType = temp == 1 ? true : false;
+                gameType = temp == 1;  // если введена 1, то gameType = true; иначе - false
                 break;
             }
         }
