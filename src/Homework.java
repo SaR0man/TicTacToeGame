@@ -197,8 +197,8 @@ public class Homework {
         System.out.println("Ход компьютера:");
         // подсчитываем количество пробелов в массиве mainArr
         int spaceCounter = 0;
-        for (int i = 0; i < mainArr.length; i++) {
-            if (mainArr[i] == ' ')
+        for (char c : mainArr) {
+            if (c == ' ')
                 spaceCounter++;
         }
         // записываем во временный массив spaceList индексы пробелов (в массиве mainArr)
